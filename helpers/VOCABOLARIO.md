@@ -12,6 +12,7 @@
 - **Fasi della programmazione**: I passi con cui si sviluppa un programma. Le prime fasi sono strettamente legate alla logica di quello che si va a creare e del suo funzionamento, mentre le ultime sono orientate verso lo specifico linguaggio di programmazione che si intende utilizzare.
 - **Variabili**: Contenitori dati flessibili che cambiano valore nel programma e consentono la manipolazione dinamica delle informazioni.
 - **Metodo Agile**: Una metodologia di sviluppo del software che promuove la collaborazione e il cambiamento flessibile (es. "Scrum", "Kanban").
+- **DevOps**: Una pratica che integra lo sviluppo del software (Dev) con le operazioni IT (Ops) per migliorare la collaborazione e l'efficienza.
 
 # Sviluppo Web
 
@@ -28,7 +29,7 @@
 - **Web Browsers e Developer Tools**: Conoscenza dei principali browser web e delle relative strumenti di sviluppo per il debug e il testing.
 - **GraphQL**: Linguaggio di query per le API, offrendo una maggiore flessibilità rispetto alle richieste tradizionali basate su REST.
 - **SEO (Search Engine Optimization)**: Implementazione di strategie per migliorare la visibilità dei contenuti web sui motori di ricerca, migliorando il posizionamento organico nelle ricerche.
-
+- **AJAX (Asynchronous JavaScript and XML)**: Una tecnica di sviluppo web che consente il recupero di dati dal server senza dover ricaricare completamente la pagina.
 # Database
 
 - **SQL (Structured Query Language)**: Linguaggio standard per gestire i database relazionali.
@@ -39,6 +40,7 @@
 - **Indice**: Indica una struttura di dati che migliora l'efficienza delle query, accelerando la ricerca e il recupero delle informazioni all'interno di un database.
 - **Indexing**: Il processo di creazione di indici per migliorare le prestazioni delle query database.
 - **Normalizzazione**: Processo di organizzazione e progettazione di una struttura dati in modo efficiente, riducendo la ridondanza delle informazioni e migliorando la coerenza dei dati. 
+- **Stored Procedure**: Un insieme di istruzioni SQL predefinite e memorizzate nel database per eseguire compiti specifici.
 
 # Controllo Versione
 
@@ -52,11 +54,13 @@
 - **Branch**: Una linea separata di sviluppo che deriva dal ramo principale (solitamente da "master" o "main") e consente di lavorare su nuove funzionalità o correzioni di bug senza influire direttamente sul ramo principale.
 - **Clone**: Creare una copia locale di un repository remoto sul proprio sistema.
 - **Rebase**: Un'operazione di Git che modifica la sequenza di commit per migliorare la pulizia della cronologia di sviluppo.
+- **Conflict**: Una situazione in cui due o più branch o commit contengono modifiche conflittuali nello stesso file o nella stessa parte di un file.
 
 # Testing e Debugging
 
 - **Unit Testing**: Test di singole parti (unità) di codice.
 - **Integration Testing**: Test su come diverse parti del sistema lavorano insieme.
+- **System Testing**: Il test dell'intero sistema per garantire che tutti i componenti funzionino correttamente come un'unica entità.
 - **Debugging**: Processo di individuazione e risoluzione di errori o bug nel codice.
 - **Fix**: Correggere o risolvere un bug nel codice durante il processo di debugging.
 - **Breakpoint** (Punto di Interruzione): Un punto nel codice in cui l'esecuzione viene interrotta temporaneamente durante il debugging per esaminare lo stato del programma.
@@ -74,6 +78,7 @@
 - **Continuous Integration (CI) e Continuous Deployment (CD)**: Metodologie che consentono di integrare regolarmente i cambiamenti nel codice e distribuire il software in modo rapido e sicuro.
 - **DRY (Don't Repeat Yourself)**: Evitare la duplicazione del codice attraverso l'uso di astrazioni e modularità.
 - **KISS** (Keep It Simple, Stupid): Un principio di progettazione che suggerisce di mantenere le cose il più semplici possibile per evitare complessità inutile.
+- **Code Review**: La pratica di esaminare il codice scritto da altri membri del team per identificare errori, miglioramenti e garantire l'aderenza agli standard di codifica.
 
 # Sicurezza
 
@@ -87,6 +92,7 @@
 - **Vulnerabilità**: Debolezza nel sistema o software che può essere sfruttata da attaccanti per compromettere la sicurezza.
 - **DMZ (Demilitarized Zone)**: Una rete intermedia tra la rete interna e quella esterna, spesso utilizzata per ospitare servizi pubblici.
 - **SonarQube**: SonarQube è un'applicazione open source per la gestione della qualità del codice. Offre una varietà di funzionalità per la sicurezza del codice, tra cui analisi statica, test di vulnerabilità e monitoraggio della sicurezza.
+- **Multi-Factor Authentication (MFA)**: Un sistema di autenticazione che richiede più di un metodo per verificare l'identità di un utente, ad esempio password e un codice inviato tramite SMS.
 
 # Performance e Ottimizzazione
 
@@ -99,12 +105,14 @@
 - **Throughput**: La quantità di lavoro completato in un determinato intervallo di tempo.
 - **Benchmarking**: Confronto delle prestazioni del sistema o del codice rispetto a un punto di riferimento o a una serie di standard.
 - **Load Balancing**: Distribuzione del traffico tra più server per migliorare la capacità di gestione delle richieste e garantire alta disponibilità.
+- **Latency**: Il ritardo tra l'inizio e la fine di una trasmissione di dati o l'intervallo tra una richiesta e la risposta.
 
 # Cloud Computing
 
 - **IAAS, PAAS, SAAS**: Diversi livelli di servizi cloud (Infrastruttura, Piattaforma, Software come Servizio).
 - **Provider Cloud**: Servizi come AWS, Azure, Google Cloud che offrono risorse di computing su internet.
 - **Public Cloud**: Un'infrastruttura cloud accessibile a qualsiasi utente tramite Internet e gestita da un provider di servizi cloud.
+- **Private Cloud**: Un ambiente cloud dedicato a un singolo cliente o organizzazione, spesso costruito e gestito internamente o da un fornitore di servizi gestiti.
 - **Identity and Access Management (IAM)**: Gestione delle identità e dei privilegi di accesso per controllare chi ha accesso a quali risorse.
 - **Scalabilità automatica**:indica la capacità di adattare dinamicamente le risorse in risposta alla domanda, garantendo efficienza ed elasticità.
 - **Serverless Computing**: Un modello di cloud computing in cui il provider gestisce dinamicamente le risorse, addebitando solo per l'esecuzione effettiva di codice (es. "AWS Lambda").
@@ -118,3 +126,4 @@
 - **Hypervisor**: Software che consente la creazione e la gestione di macchine virtuali (VM) su un server fisico, consentendo l'esecuzione di più sistemi operativi su una singola macchina.
 - **Host OS (Host Operating System)**: Sistema operativo che esegue direttamente sull'hardware fisico e ospita l'ipervisore.
 - **Hypervisor**: Un software che consente l'esecuzione di macchine virtuali su un sistema host, gestendo l'accesso alle risorse hardware.
+- **Cluster**: Un insieme di server o host che lavorano insieme per fornire una maggiore affidabilità e disponibilità delle macchine virtuali.
